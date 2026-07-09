@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/LevelUpPanel.gd" id="1_levelup"]
+
+[node name="LevelUpPanel" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_levelup")
+
+[node name="Root" type="Control" parent="."]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+
+[node name="Panel" type="PanelContainer" parent="Root"]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 270.0
+offset_right = 650.0
+offset_bottom = 850.0
+
+[node name="VBox" type="VBoxContainer" parent="Root/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="TitleLabel" type="Label" parent="Root/Panel/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "LEVEL UP"
+horizontal_alignment = 1
+
+[node name="Choice1" type="Button" parent="Root/Panel/VBox"]
+custom_minimum_size = Vector2(0, 110)
+layout_mode = 2
+text = "Choice 1"
+
+[node name="Choice2" type="Button" parent="Root/Panel/VBox"]
+custom_minimum_size = Vector2(0, 110)
+layout_mode = 2
+text = "Choice 2"
+
+[node name="Choice3" type="Button" parent="Root/Panel/VBox"]
+custom_minimum_size = Vector2(0, 110)
+layout_mode = 2
+text = "Choice 3"

@@ -1,0 +1,10 @@
+res://scenes/Game.tscn::fee67839fa3c91691b2ce0af799dde70::1781447703::res://.godot/exported/133200997/export-ff8ceb9b2bd5b48777d3d52e811276ab-Game.scn
+res://scenes/HUD.tscn::ee9a3e7a90d52c806ebc83a3ac8e7752::1781451553::res://.godot/exported/133200997/export-2ea9781d6f9f7562c1d276c7fdd0b0ab-HUD.scn
+res://scenes/LevelUpPanel.tscn::7b0454eb7119f4d68bad5d17b60ca4c9::1781447703::res://.godot/exported/133200997/export-876ac423742ae68d481c39fb58048b25-LevelUpPanel.scn
+res://scenes/Main.tscn::8814265a0e6c732432883e5e63e970f8::1781447703::res://.godot/exported/133200997/export-4a24720ee5e787dbe30abc634fa3679d-Main.scn
+res://scenes/PickupXP.tscn::32b67da751672d03688b7a0c346fbca9::1781447703::res://.godot/exported/133200997/export-07f1edd4d461c1c40ea4331a1bca2880-PickupXP.scn
+res://scenes/Player.tscn::7592d7e60132f78e3397ca6e2502a688::1781447703::res://.godot/exported/133200997/export-e8220e74d1354b9e6b168b513689419c-Player.scn
+res://scenes/Projectile.tscn::2a13e16b0984da0ccd3fcef06264e5c2::1781447703::res://.godot/exported/133200997/export-a7aac28efb4a523f73f1a023aa5edacd-Projectile.scn
+res://scenes/VirtualJoystick.tscn::a01fa79391ab41ad7e443f4f5d22256d::1781447703::res://.godot/exported/133200997/export-a963557362cd8104be6562bd058dc081-VirtualJoystick.scn
+res://scenes/Zombie.tscn::c219539b92d7b82dc09585ceb90d1ae6::1781447703::res://.godot/exported/133200997/export-c44a419a2a76a2a94672610ba26ab6ff-Zombie.scn
+res://scenes/WelcomeScreen.tscn::d846fec73b4d01a26b6e59234d3ee5b7::1781451527::res://.godot/exported/133200997/export-3170c83e69b4bea968903824e5156d3b-WelcomeScreen.scn

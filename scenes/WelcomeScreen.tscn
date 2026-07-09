@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/WelcomeScreen.gd" id="1_welcome"]
+
+[node name="WelcomeScreen" type="CanvasLayer"]
+script = ExtResource("1_welcome")
+
+[node name="Root" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Backdrop" type="ColorRect" parent="Root"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.015, 0.018, 0.019, 1)
+
+[node name="Panel" type="PanelContainer" parent="Root"]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 210.0
+offset_right = 638.0
+offset_bottom = 840.0
+
+[node name="VBox" type="VBoxContainer" parent="Root/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 22
+
+[node name="TitleLabel" type="Label" parent="Root/Panel/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "Zombie Survivor"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="Root/Panel/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Pick a run mode"
+horizontal_alignment = 1
+
+[node name="TimedButton" type="Button" parent="Root/Panel/VBox"]
+custom_minimum_size = Vector2(0, 92)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "5:00 Run"
+
+[node name="EndlessButton" type="Button" parent="Root/Panel/VBox"]
+custom_minimum_size = Vector2(0, 92)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Endless"
+
+[node name="HintLabel" type="Label" parent="Root/Panel/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+text = "Move with the joystick or WASD. Weapons fire automatically."
+horizontal_alignment = 1
+autowrap_mode = 3
