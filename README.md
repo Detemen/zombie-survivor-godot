@@ -2,6 +2,8 @@
 
 Browser-playable Godot 4.x prototype for a short pixel-art zombie survivor run inspired by the auto-attack, one-hand, roguelite upgrade loop of mobile survivor games.
 
+**[▶ Play in browser](https://detemen.github.io/zombie-survivor-godot/)**
+
 ## Requirements
 
 - Godot 4.x
@@ -12,7 +14,7 @@ Godot is not bundled in this repository. Install the editor and export templates
 
 ## Play In Editor
 
-1. Open `/Users/artemcvetkov/Projects/zombie-survivor-godot` in Godot 4.x.
+1. Open this folder in Godot 4.x.
 2. Run `scenes/Main.tscn`.
 3. Use the on-screen joystick, touch/mouse drag, or WASD/arrow keys for debug movement.
 
@@ -32,7 +34,7 @@ Then open `http://127.0.0.1:8060`.
 Headless export also works after Godot and matching templates are installed:
 
 ```bash
-godot --headless --path /Users/artemcvetkov/Projects/zombie-survivor-godot --export-release Web build/web/index.html
+godot --headless --path . --export-release Web build/web/index.html
 ```
 
 Do not open build/web/index.html directly. Godot Web exports must be served over HTTP. The local helper sends the headers Godot Web builds commonly need:
