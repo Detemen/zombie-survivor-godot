@@ -1,8 +1,14 @@
 # Zombie Survivor Prototype
 
+![Godot](https://img.shields.io/badge/Godot-4.x-478CBF?logo=godotengine&logoColor=white)
+![GDScript](https://img.shields.io/badge/GDScript-game%20logic-355570)
+![Web Export](https://img.shields.io/badge/Export-WASM%2FWeb-orange)
+
 Browser-playable Godot 4.x prototype for a short pixel-art zombie survivor run inspired by the auto-attack, one-hand, roguelite upgrade loop of mobile survivor games.
 
 **[▶ Play in browser](https://detemen.github.io/zombie-survivor-godot/)**
+
+![Gameplay screenshot](docs/gameplay.png)
 
 ## Requirements
 
