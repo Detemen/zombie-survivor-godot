@@ -9,6 +9,10 @@ config/name="Zombie Survivor Prototype"
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://assets/player.png"
+boot_splash/bg_color=Color(0.043, 0.05, 0.055, 1)
+boot_splash/image="res://assets/splash.png"
+boot_splash/fullsize=true
+boot_splash/use_filter=false
 
 [autoload]
 
