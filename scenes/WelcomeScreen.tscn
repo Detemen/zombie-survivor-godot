@@ -35,12 +35,14 @@ theme_override_constants/separation = 22
 
 [node name="TitleLabel" type="Label" parent="Root/Panel/VBox"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.42, 1.0, 0.75, 1)
 theme_override_font_sizes/font_size = 46
 text = "Zombie Survivor"
 horizontal_alignment = 1
 
 [node name="SubtitleLabel" type="Label" parent="Root/Panel/VBox"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.62, 0.67, 0.65, 1)
 theme_override_font_sizes/font_size = 20
 text = "Pick a run mode"
 horizontal_alignment = 1
@@ -59,6 +61,7 @@ text = "Endless"
 
 [node name="HintLabel" type="Label" parent="Root/Panel/VBox"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.5, 0.54, 0.52, 1)
 theme_override_font_sizes/font_size = 17
 text = "Move with the joystick or WASD. Weapons fire automatically."
 horizontal_alignment = 1

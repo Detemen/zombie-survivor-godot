@@ -47,5 +47,6 @@ func update_kills(kill_count: int) -> void:
 
 func show_result(victory: bool) -> void:
     result_label.text = "EXTRACTED" if victory else "OVERRUN"
+    result_label.add_theme_color_override("font_color", Color(0.42, 1.0, 0.75) if victory else Color(1.0, 0.4, 0.4))
     result_label.visible = true
     restart_button.visible = true

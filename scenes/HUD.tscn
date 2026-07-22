@@ -21,26 +21,34 @@ offset_left = 18.0
 offset_top = 18.0
 offset_right = 702.0
 offset_bottom = 160.0
+theme_override_constants/separation = 8
 
 [node name="TimerLabel" type="Label" parent="Root/TopBar"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.42, 1.0, 0.75, 1)
 theme_override_font_sizes/font_size = 34
 text = "05:00"
 horizontal_alignment = 1
 
 [node name="ModeLabel" type="Label" parent="Root/TopBar"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.6, 0.65, 0.63, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 16
 text = "SURVIVE"
 horizontal_alignment = 1
 
 [node name="HPBar" type="ProgressBar" parent="Root/TopBar"]
+theme_type_variation = &"HPBar"
+custom_minimum_size = Vector2(0, 16)
 layout_mode = 2
 max_value = 100.0
 value = 100.0
 show_percentage = false
 
 [node name="XPBar" type="ProgressBar" parent="Root/TopBar"]
+theme_type_variation = &"XPBar"
+custom_minimum_size = Vector2(0, 10)
 layout_mode = 2
 max_value = 5.0
 show_percentage = false

@@ -54,3 +54,6 @@ logs/
 
 # Misc caches
 .cache/
+
+# Godot editor cache
+.godot/

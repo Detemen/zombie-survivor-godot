@@ -102,15 +102,15 @@ func _draw_arena_background() -> void:
     var tile_size: float = 32.0
     var area_size: float = 3200.0
     var start: float = -area_size * 0.5
-    var tile_color_a: Color = Color(0.045, 0.050, 0.055)
-    var tile_color_b: Color = Color(0.060, 0.065, 0.070)
+    var tile_color_a: Color = Color(0.11, 0.125, 0.11)
+    var tile_color_b: Color = Color(0.145, 0.16, 0.14)
     for x_index: int in range(int(area_size / tile_size)):
         for y_index: int in range(int(area_size / tile_size)):
             var tile_position: Vector2 = Vector2(start + x_index * tile_size, start + y_index * tile_size)
             var color: Color = tile_color_a if (x_index + y_index) % 2 == 0 else tile_color_b
             draw_rect(Rect2(tile_position, Vector2(tile_size, tile_size)), color)
-            if ground_tile_texture != null and (x_index + y_index) % 5 == 0:
-                draw_texture(ground_tile_texture, tile_position, Color(0.58, 0.60, 0.62, 0.22))
+            if ground_tile_texture != null and (x_index + y_index) % 3 == 0:
+                draw_texture(ground_tile_texture, tile_position, Color(0.75, 0.78, 0.72, 0.5))
 
 func _draw_road_markings() -> void:
     var area_size: float = 3200.0
